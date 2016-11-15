@@ -1718,7 +1718,6 @@ class BaseAPI{
                 $this->sessions[$spl] = new BaseSession($this, $p, $cfg, $values);
                 $this->setMute($p, $m, $mU);
                 $this->setNick($p, $n);
-                $this->setVanish($p, $v, $vNP);
             }
             $r[] = $this->sessions[$spl];
         }
